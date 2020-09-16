@@ -1,0 +1,9 @@
+Notes on how I name notebooks
+
+General structure: 
+
+#_description-of-notebook_ISO-datetime.ipynb
+
+Example: 
+
+1_exploratory-data-analysis_2020-07-16.ipynb 
