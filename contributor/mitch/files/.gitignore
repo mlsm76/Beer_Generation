@@ -1,1 +1,7 @@
 /beer_data_cleaned7-19.csv
+/base_decision_tree.pkl
+/base_lin_reg.pkl
+/base_random_forest.pkl
+/beer_data_train.csv
+/beer_data_test.csv
+/beer_data_val.csv
