@@ -1,4 +1,5 @@
 *.csv
+*.pkl
 notebooks/kevin/notes.txt
 node_modules 
 *.env 
