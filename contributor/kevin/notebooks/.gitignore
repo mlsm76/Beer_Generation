@@ -1,5 +1,0 @@
-notebooks/kevin/notes.txt
-node_modules 
-*.env 
-.env* 
-*.local
