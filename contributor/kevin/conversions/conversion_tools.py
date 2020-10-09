@@ -7,7 +7,7 @@ kg_cols = [
     "SpecialtyMalt1Amount",
 ]
 gram_cols = ["hop1amount", "hop2amount", "hop3amount", "hop4amount", "hop5amount"]
-celcius_cols = ["LowTemp", "HighTemp"]
+temperature_cols = ["LowTemp", "HighTemp"]
 adj_cols = ["Adjunct1Num", "Adjunct2Num", "Adjunct3Num", "Adjunct4Num", "Adjunct5Num"]
 conversion_cols = kg_cols + gram_cols + celcius_cols + adj_cols
 
