@@ -4,5 +4,5 @@ COPY ./requirements.txt /deploy/
 COPY ./knn_dbscan.pkl /deploy/
 WORKDIR /deploy/
 RUN pip install -r requirements.txt
-EXPOSE 80
+EXPOSE 333
 ENTRYPOINT ["python", "beer_app.py"]
