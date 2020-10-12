@@ -32,4 +32,4 @@ def get_prediction():
 
 if __name__ == '__main__':
     load_model()  # load model at the beginning once only
-    app.run(host='0.0.0.0', port=333, threaded=True, debug=True)
+    app.run(host='127.0.0.1', port=333, threaded=True, debug=True)
