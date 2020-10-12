@@ -15,7 +15,7 @@ def load_model():
         model = pickle.load(f)
 
 
-@app.route('/HelloWorld/')
+@app.route('/')
 def home_endpoint():
     return 'Hello World!'
 
