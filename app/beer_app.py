@@ -11,7 +11,7 @@ app = Flask(__name__)
 def load_model():
     global model
     # model variable refers to the global variable
-    with open('knn_dbscan.pkl', 'rb') as f:
+    with open('gmm.pkl', 'rb') as f:
         model = pickle.load(f)
 
 
@@ -29,6 +29,13 @@ def get_prediction():
         prediction = model.predict(data)  # runs globally loaded model on the data
     return str(prediction[0])
 
+
+@app.route('/sample', methods=['POST'])
+def get_sample():
+    # Generates a single sample
+    if request.method == 'POST':
+        sample = model.sample(1)  # runs globally loaded model to generate sample
+    return str(sample[0])
 
 if __name__ == '__main__':
     load_model()  # load model at the beginning once only
